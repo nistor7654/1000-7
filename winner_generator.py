@@ -9,6 +9,8 @@ def Change_therme():
     global therme
     if therme is True:
         main_win.setStyleSheet("background:black")
+        hello_text.setStyleSheet("color:white")
+        namber_pluse.setStyleSheet("color:white")
         therme = False
     else:
         main_win.setStyleSheet("background:white") 
