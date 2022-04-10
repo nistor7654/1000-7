@@ -26,7 +26,7 @@ vline = QVBoxLayout()
 hello_text = QLabel("ЭТО РАНДОМ КАЗИНО!!!")
 namber_pluse = QLabel("тут будет число")
 random_btn = QPushButton("рандомное число")
-black_therme_btn = QPushButton("Изменить тему!!!")
+black_therme_btn = QPushButton("Изменить тему!!!!")
 random_btn.clicked.connect(print_random)
 black_therme_btn.clicked.connect(Change_therme)
 
